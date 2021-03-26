@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>CALCULADOR</div>
+         
+        <form action="./CalServlet" method="POST">
+            <input type="text" name="numero" value="" />
+        <br>
+    <input type="button" value="1" onClick="numero.value+='1'">
+    <input type="button" value="2" onClick="numero.value+='2'">
+    <input type="button" value="3" onClick="numero.value+='3'">
+    <input type="button" value="+" onClick="numero.value+='+'">
+    <br>
+    <input type="button" value="4" onClick="numero.value+='4'">
+    <input type="button" value="5" onClick="numero.value+='5'">
+    <input type="button" value="6" onClick="numero.value+='6'">
+    <input type="button" value="-" onClick="numero.value+='-'">
+    <br>
+    <input type="button" value="7" onClick="numero.value+='7'">
+    <input type="button" value="8" onClick="numero.value+='8'">
+    <input type="button" value="9" onClick="numero.value+='9'">
+    <input type="button" value="*" onClick="numero.value+='*'">
+    <br>
+    <input type="button" value="0" onClick="numero.value+='0'">
+    <input type="reset" value="c">
+    <input type="button" value="/" onClick="numero.value+='/'">
+    <input type="button" value="%" onClick="numero.value+='%'">
+    <input type="button" value="^" onClick="numero.value+='^'">
+    <input type="submit" value="=" />
+        </form>
+        
+        
+    </body>
+</html>
